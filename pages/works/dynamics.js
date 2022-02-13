@@ -9,7 +9,7 @@ const Work = () => (
   <Layout title="Dynamics">
     <Container>
       <Title>
-        nCov19india <Badge>Jan 2021 - Apr 2021</Badge>
+        Dynamics <Badge>Jan 2021 - Apr 2021</Badge>
       </Title>
       <P>
       A web application for dynamics, a project oriented community.
