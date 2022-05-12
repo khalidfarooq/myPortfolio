@@ -35,7 +35,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Khalid Farooq
           </Heading>
-          <p>Aspiring software engineer</p>
+          <p>SDE intern @Nasdaq</p>
         </Box>
         <Box
           flexShrink={0}
@@ -61,8 +61,13 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Khalid Farooq is a computer science undergrad graduating in Aug 2022 and a freelance full-stack developer based in Bangalore with a
-          passion for solving real world problems with code.
+          <List>
+            <ListItem>I'm a computer science undergrad (batch 2022).</ListItem>
+            <ListItem>An SDE intern at Nasdaq.</ListItem>
+            <ListItem>A freelance full-stack developer based in Bangalore,</ListItem>
+            <ListItem>with passion and desire to solve real world problems with code.</ListItem>
+          
+          </List>
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
