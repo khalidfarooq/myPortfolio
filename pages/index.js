@@ -27,7 +27,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a Software Engineer at Nasdaq based in Bangalore!
+        Hello, I&apos;m a Software Engineer at Nasdaq!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -35,7 +35,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Khalid Farooq
           </Heading>
-          <p>SDE intern @Nasdaq</p>
+          <p>Software Engineer @Nasdaq</p>
         </Box>
         <Box
           flexShrink={0}
@@ -62,10 +62,9 @@ const Home = () => (
         </Heading>
         <Paragraph>
           <List>
-            <ListItem>I'm a Software Engineer at Nasdaq.</ListItem>
+            <ListItem>I am a Software Engineer at Nasdaq.</ListItem>
             <ListItem>A Part-time freelance full-stack developer based in Bangalore,</ListItem>
             <ListItem>with passion and desire to solve real world problems with code.</ListItem>
-          
           </List>
         </Paragraph>
         <Box align="center" my={4}>
@@ -84,7 +83,6 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Problem solving, Coding, Poetry.{' '}
-
         </Paragraph>
       </Section>
 
