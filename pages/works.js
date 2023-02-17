@@ -15,11 +15,11 @@ const Works = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Programming Languages</Meta>
-          <span>C/C++, Python, JavaScript, SQL</span>
+          <span>JavaScript, TypeScript, Python, C/C++, SQL</span>
         </ListItem>
         <ListItem>
           <Meta>Web Technologies</Meta>
-          <span>Django, ReactJs, jQuery, HTML5, CSS3</span>
+          <span>ReactJs, OfficeJs, Django, jQuery, HTML5, CSS3</span>
         </ListItem>
         <ListItem>
           <Meta>Developer Tools</Meta>
