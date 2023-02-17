@@ -27,7 +27,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a Computer Science undergrad based in Bangalore!
+        Hello, I&apos;m a Software Engineer at Nasdaq based in Bangalore!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -62,9 +62,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
           <List>
-            <ListItem>I'm a computer science undergrad (batch 2022).</ListItem>
-            <ListItem>An SDE intern at Nasdaq.</ListItem>
-            <ListItem>A freelance full-stack developer based in Bangalore,</ListItem>
+            <ListItem>I'm a Software Engineer at Nasdaq.</ListItem>
+            <ListItem>A Part-time freelance full-stack developer based in Bangalore,</ListItem>
             <ListItem>with passion and desire to solve real world problems with code.</ListItem>
           
           </List>
@@ -84,7 +83,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Problem solving, Coding, Urdu poetry.{' '}
+          Problem solving, Coding, Poetry.{' '}
 
         </Paragraph>
       </Section>
