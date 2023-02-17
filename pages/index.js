@@ -20,7 +20,15 @@ import {IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 const Home = () => (
   <Layout>
     <Container>
-
+      <Box
+        borderRadius="lg"
+        mb={6}
+        p={3}
+        textAlign="center"
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+      >
+        Hello, I&apos;m a Software Engineer at Nasdaq!
+      </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
