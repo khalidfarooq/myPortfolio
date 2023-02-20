@@ -6,6 +6,7 @@ import { Meta } from '../components/work'
 import thunmbNcov19india from '../public/images/works/ncov19india.png'
 import thunmbShalimar from '../public/images/works/shalimar1.png'
 import thunmbDynamics from '../public/images/works/dynamics1.png'
+import heathchain from '../public/images/works/healthchain.jpg'
 const Works = () => (
   <Layout title="Technical Skills">
      <Container>
@@ -37,7 +38,12 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="healthchain" title="Health Chain" thumbnail={heathchain}>
+            An blockchain based application that enables coherent accessibility of health data amongst caregivers, health practitioners and patients.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
           <WorkGridItem id="ncov19india" title="nCov19 India" thumbnail={thunmbNcov19india}>
             An application for latest updates on covid stats in india, with very good UI/UX
           </WorkGridItem>

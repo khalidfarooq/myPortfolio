@@ -8,8 +8,7 @@ import {
   Button,
   List,
   ListItem,
-  Icon,
-  useColorModeValue
+  Icon
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -20,15 +19,6 @@ import {IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 const Home = () => (
   <Layout>
     <Container>
-      <Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-      >
-        Hello, I&apos;m a Software Engineer at Nasdaq!
-      </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
@@ -61,9 +51,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
           <List>
-            <ListItem>I am a full-time Software Engineer at Nasdaq.</ListItem>
-            <ListItem>And a Part-time freelance full-stack developer based in Bangalore,</ListItem>
-            <ListItem>with passion and desire to solve real world problems with code.</ListItem>
+            <ListItem>I am working as full-time Software Engineer at Nasdaq.</ListItem>
+            <ListItem>And a Part-time freelance full-stack developer based in bangalore.</ListItem>
           </List>
         </Paragraph>
         <Box align="center" my={4}>
