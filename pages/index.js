@@ -69,7 +69,7 @@ const Home = () => (
             <ListItem>I am a proficient full-time Software Engineer at Nasdaq.</ListItem>
             <ListItem>Additionally working as a dedicated part-time freelance Full-Stack Developer.</ListItem>
             <ListItem>My expertise as a freelancer lies in crafting cutting-edge Chatbot solutions, 
-              leveraging the power of ChatGPT technology to elevate your business's online presence.
+              leveraging the power of ChatGPT technology to elevate your business&apos;s online presence.
             </ListItem>
              
           </List>
