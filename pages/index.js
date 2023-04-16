@@ -8,7 +8,8 @@ import {
   Button,
   List,
   ListItem,
-  Icon
+  Icon,
+  Flex
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -21,7 +22,7 @@ const Home = () => (
     <Container>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title">
+          <Heading as="h2" variant="page-title" mt={'10px'}>
             Khalid Farooq
           </Heading>
           <p>Software Engineer @Nasdaq</p>
@@ -44,24 +45,48 @@ const Home = () => (
           />
         </Box>
       </Box>
-
+      <Flex
+          my={4}
+          direction={["column", "column"]}
+          justifyContent="center"
+          gap={4}
+        >
+          <NextLink 
+            href="https://www.upwork.com/freelancers/khalid786"
+            isExternal
+          >
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="green">
+              Hire Me As a Freelancer
+            </Button>
+          </NextLink>
+        </Flex>
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
         <Paragraph>
           <List>
-            <ListItem>I am working as full-time Software Engineer at Nasdaq.</ListItem>
-            <ListItem>And a Part-time freelance full-stack developer based in bangalore.</ListItem>
+            <ListItem>I am a proficient full-time Software Engineer at Nasdaq.</ListItem>
+            <ListItem>Additionally working as a dedicated part-time freelance Full-Stack Developer.</ListItem>
+            <ListItem>My expertise as a freelancer lies in crafting cutting-edge Chatbot solutions, 
+              leveraging the power of ChatGPT technology to elevate your business's online presence.
+            </ListItem>
+             
           </List>
         </Paragraph>
-        <Box align="center" my={4}>
+        <Flex
+          align="center"
+          my={4}
+          direction={["column", "column"]}
+          justifyContent="center"
+          gap={4}
+        >
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
           </NextLink>
-        </Box>
+        </Flex>
       </Section>
 
 

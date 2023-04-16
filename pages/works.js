@@ -19,12 +19,16 @@ const Works = () => (
           <span>JavaScript, TypeScript, Python, C/C++, SQL</span>
         </ListItem>
         <ListItem>
+          <Meta>ChatBot Technologies</Meta>
+          <span>Langchain, OpenAI API, Pinecone</span>
+        </ListItem>
+        <ListItem>
           <Meta>Web Technologies</Meta>
-          <span>ReactJs, OfficeJs, Django, jQuery, HTML5, CSS3</span>
+          <span>NextJs, ReactJs, OfficeJs, Django, jQuery, HTML5, CSS3</span>
         </ListItem>
         <ListItem>
           <Meta>Developer Tools</Meta>
-          <span>GitHub, VS Code, Pycharm</span>
+          <span>GitHub, GitLab, BitBucket VS Code, Pycharm</span>
         </ListItem>
         <ListItem>
           <Meta>Coursework</Meta>

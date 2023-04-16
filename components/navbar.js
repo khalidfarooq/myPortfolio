@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub,IoDocumentAttachOutline } from 'react-icons/io5'
+import { IoLogoGithub,IoDocumentAttachOutline, IoUnlink } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -71,8 +71,27 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          <LinkItem 
+            href="/works" path={path} 
+            _hover={{ bg: "teal.600", color:"white" }}
+            _focus={{ boxShadow: "outline" }}
+          >
             Works
+          </LinkItem>
+          <LinkItem
+            _target="_blank"
+            href="https://linktr.ee/khalidfarooq"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+            isExternal
+            _hover={{ bg: "teal.600", color:"white" }}
+            _focus={{ boxShadow: "outline" }}
+          >
+            <IoUnlink />
+            LinkTree
           </LinkItem>
           <LinkItem
             _target="_blank"
@@ -82,6 +101,9 @@ const Navbar = props => {
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
+            isExternal
+            _hover={{ bg: "teal.600", color:"white" }}
+            _focus={{ boxShadow: "outline" }}
           >
             <IoDocumentAttachOutline />
             Resume
@@ -94,6 +116,9 @@ const Navbar = props => {
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
+            _hover={{ bg: "teal.600", color:"white" }}
+            _focus={{ boxShadow: "outline" }}
+            isExternal
           >
             <IoLogoGithub />
             Github
