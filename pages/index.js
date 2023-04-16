@@ -20,7 +20,7 @@ import {useColorModeValue } from '@chakra-ui/react'
 const Home = () => (
   <Layout>
     <Container>
-      <Box display={{ md: 'flex'}} flexDirection="row-reverse">
+      <Box display='flex' flexDirection="row-reverse">
         <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
