@@ -16,7 +16,7 @@ import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import {IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
-import { IconButton, useColorMode, useColorModeValue } from '@chakra-ui/react'
+import {useColorModeValue } from '@chakra-ui/react'
 const Home = () => (
   <Layout>
     <Container>
