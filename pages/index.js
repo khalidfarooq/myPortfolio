@@ -16,11 +16,11 @@ import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import {IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
-
+import { IconButton, useColorMode, useColorModeValue } from '@chakra-ui/react'
 const Home = () => (
   <Layout>
     <Container>
-      <Box display={{ md: 'flex'}} display="flex" flexDirection="row-reverse">
+      <Box display={{ md: 'flex'}} flexDirection="row-reverse">
         <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
@@ -38,8 +38,8 @@ const Home = () => (
             alt="Profile image"
           />
         </Box>
-        <Box flexGrow={1} mt={'20px'}>
-          <Heading as="h2" variant="page-title" mt={'10px'}>
+        <Box flexGrow={1} mt={'30px'}>
+          <Heading as="h2" variant="page-title">
             Khalid Farooq
           </Heading>
           <p>Software Engineer @Nasdaq</p>
@@ -56,7 +56,7 @@ const Home = () => (
             href="https://www.upwork.com/freelancers/khalid786"
             isExternal
           >
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="green">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('yellow', 'orange')}>
               Hire Me As a Freelancer
             </Button>
           </NextLink>
@@ -133,6 +133,7 @@ const Home = () => (
     </Container>
   </Layout>
 )
+
 
 export default Home
 export { getServerSideProps } from '../components/chakra'
