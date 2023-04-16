@@ -20,7 +20,7 @@ import {IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 const Home = () => (
   <Layout>
     <Container>
-      <Box display={{ md: 'flex' }}>
+      <Box display={{ md: 'flex'}} display="flex" flexDirection="row-reverse">
         <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
@@ -38,7 +38,7 @@ const Home = () => (
             alt="Profile image"
           />
         </Box>
-        <Box flexGrow={1}>
+        <Box flexGrow={1} mt={'20px'}>
           <Heading as="h2" variant="page-title" mt={'10px'}>
             Khalid Farooq
           </Heading>
