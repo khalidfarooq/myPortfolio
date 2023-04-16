@@ -21,12 +21,6 @@ const Home = () => (
   <Layout>
     <Container>
       <Box display={{ md: 'flex' }}>
-        <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title" mt={'10px'}>
-            Khalid Farooq
-          </Heading>
-          <p>Software Engineer @Nasdaq</p>
-        </Box>
         <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
@@ -44,6 +38,13 @@ const Home = () => (
             alt="Profile image"
           />
         </Box>
+        <Box flexGrow={1}>
+          <Heading as="h2" variant="page-title" mt={'10px'}>
+            Khalid Farooq
+          </Heading>
+          <p>Software Engineer @Nasdaq</p>
+        </Box>
+
       </Box>
       <Flex
           my={4}
