@@ -56,7 +56,7 @@ const Home = () => (
             isExternal
           >
             <Button rightIcon={<ChevronRightIcon />} colorScheme="green">
-              Hire Me As a Freelancer
+              Hire Me As a 
             </Button>
           </NextLink>
         </Flex>
