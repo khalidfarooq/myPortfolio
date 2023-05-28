@@ -53,7 +53,7 @@ const Home = () => (
           gap={4}
         >
           <NextLink 
-            href="https://www.upwork.com/freelancers/khalid786"
+            href="https://linktr.ee/khalidfarooq"
             isExternal
           >
             <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('yellow', 'orange')}>
