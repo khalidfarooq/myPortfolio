@@ -56,7 +56,12 @@ const Home = () => (
             href="https://linktr.ee/khalidfarooq"
             isExternal
           >
-            <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('yellow', 'orange')}>
+            <Button 
+            as="a"
+            href="https://linktr.ee/khalidfarooq"
+            target="_blank"
+            rel="noopener noreferrer"
+            rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('yellow', 'orange')}>
               Hire Me As a Freelancer
             </Button>
           </NextLink>
