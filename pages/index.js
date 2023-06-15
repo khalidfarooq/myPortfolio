@@ -62,11 +62,11 @@ const Home = () => (
             target="_blank"
             rel="noopener noreferrer"
             rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('yellow', 'orange')}>
-              Hire Me As a Freelancer
+              Link Tree
             </Button>
           </NextLink>
           <NextLink 
-            href="https://linktr.ee/khalidfarooq"
+            href="https://calendly.com/khalidanswers404/consulation-cal"
             isExternal
           >
             <Button 
@@ -76,7 +76,7 @@ const Home = () => (
             target="_blank"
             rel="noopener noreferrer"
             rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('green', 'green')}>
-              Book a consultation call
+              Book a call
             </Button>
           </NextLink>
         </Flex>
