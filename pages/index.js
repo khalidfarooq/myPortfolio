@@ -48,7 +48,7 @@ const Home = () => (
       </Box>
       <Flex
           my={4}
-          direction={["column", "column"]}
+          direction={["row", "row"]}
           justifyContent="center"
           gap={4}
         >
@@ -63,6 +63,20 @@ const Home = () => (
             rel="noopener noreferrer"
             rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('yellow', 'orange')}>
               Hire Me As a Freelancer
+            </Button>
+          </NextLink>
+          <NextLink 
+            href="https://linktr.ee/khalidfarooq"
+            isExternal
+          >
+            <Button 
+            as="a"
+            style={{marginLeft:"10px"}}
+            href="https://calendly.com/khalidanswers404/consulation-call"
+            target="_blank"
+            rel="noopener noreferrer"
+            rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('green', 'green')}>
+              Book a consultation call
             </Button>
           </NextLink>
         </Flex>
