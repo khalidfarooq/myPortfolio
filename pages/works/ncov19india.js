@@ -21,13 +21,13 @@ the country.</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Demo Video</Meta>
-          <Link href="https://drive.google.com/file/d/1rT1B5da1T83VRxdT-IdYZWMOqA_hHlEr/view">
+          <Link _target="_blank" isExternal href="https://drive.google.com/file/d/1rT1B5da1T83VRxdT-IdYZWMOqA_hHlEr/view">
             https://www.ncov19india.in/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/khalidfarooq/ncov19india">
+          <Link _target="_blank" isExternal href="https://github.com/khalidfarooq/ncov19india">
           https://github.com/khalidfarooq/ncov19india <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

@@ -21,13 +21,13 @@ management system.</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Research Paper</Meta>
-          <Link href="https://drive.google.com/file/d/1xNHmc07lrbpzUSk0wSZjoZcm8tLffID0/view">
+          <Link _target="_blank" isExternal href="https://drive.google.com/file/d/1xNHmc07lrbpzUSk0wSZjoZcm8tLffID0/view">
             Drive Link <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/khalidfarooq/Health-Chain">
+          <Link _target="_blank" isExternal href="https://github.com/khalidfarooq/Health-Chain">
           https://github.com/khalidfarooq/Health-Chain <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

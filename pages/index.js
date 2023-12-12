@@ -42,7 +42,8 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Khalid Farooq
           </Heading>
-          <p>Software Engineer @Nasdaq</p>
+          <p>SDE <Link isExternal href='https://www.nasdaq.com/' style={{fontWeight:'800'}}>@Nasdaq</Link></p>
+          <p>Founder <Link isExternal href='https://www.lucidwaveai.com/' style={{fontWeight:'800'}}>@LucidWaveAI</Link></p>
         </Box>
 
       </Box>
@@ -66,13 +67,13 @@ const Home = () => (
             </Button>
           </NextLink>
           <NextLink 
-            href="https://calendly.com/khalidanswers404/consulation-cal"
+            href="https://calendly.com/lucidwaveai/consulation-call"
             isExternal
           >
             <Button 
             as="a"
             style={{marginLeft:"10px"}}
-            href="https://calendly.com/khalidanswers404/consulation-call"
+            href="https://calendly.com/lucidwaveai/consulation-call"
             target="_blank"
             rel="noopener noreferrer"
             rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('green', 'green')}>
@@ -86,13 +87,17 @@ const Home = () => (
         </Heading>
         <Paragraph>
           <List>
-            <ListItem>I am a proficient full-time Software Engineer at Nasdaq.</ListItem>
-            <ListItem>Additionally working as a dedicated part-time freelance Full-Stack Developer.</ListItem>
-            <ListItem>My expertise as a freelancer lies in crafting cutting-edge Chatbot solutions, 
-              leveraging the power of ChatGPT technology to elevate your business&apos;s online presence.
+            <ListItem>I am a proficient full-time Senior Software Developer at Nasdaq.</ListItem>
+            <ListItem> 
+              In addition to my role at Nasdaq, I am the founder and driving force behind&nbsp;
+              <Link _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link>
+              , an innovative AI Automation Agency.<br></br> <Link _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link> is dedicated to transforming 
+              businesses by leveraging cutting-edge technologies, crafting bespoke Chatbot solutions, and developing advanced AI SaaS and CRM applications.
+              </ListItem>
+            <ListItem>My mission is to elevate your business's online presence and efficiency through the power of AI.&nbsp; 
+            Join me on this journey as we navigate the intersection of technology and imagination, pushing the boundaries of what's possible in the digital realm.
             </ListItem>
-             
-          </List>
+          </List> 
         </Paragraph>
         <Flex
           align="center"

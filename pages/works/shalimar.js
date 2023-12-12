@@ -22,13 +22,13 @@ to their family or others named in their will.
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Demo Report</Meta>
-          <Link href="https://drive.google.com/file/d/1OsuJkqhHV6pAK886Oa9YD2qyT_wEa-KO/edit">
+          <Link _target="_blank" isExternal href="https://drive.google.com/file/d/1OsuJkqhHV6pAK886Oa9YD2qyT_wEa-KO/edit">
             Drive Link <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/khalidfarooq/shalimar">
+          <Link _target="_blank" isExternal href="https://github.com/khalidfarooq/shalimar">
           https://github.com/khalidfarooq/shalimar <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

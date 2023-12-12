@@ -7,6 +7,12 @@ import thunmbNcov19india from '../public/images/works/ncov19india.png'
 import thunmbShalimar from '../public/images/works/shalimar1.png'
 import thunmbDynamics from '../public/images/works/dynamics1.png'
 import heathchain from '../public/images/works/healthchain.jpg'
+import indiverse from '../public/images/works/indiverse-1.jpg'
+import metabolic from '../public/images/works/metabolic-1.jpg'
+import pushngyun from '../public/images/works/push-1.jpg'
+import tcengine from '../public/images/works/tcengine-1.jpg'
+import meta from '../public/images/works/yifan-4.png'
+import fiverr from '../public/images/works/fiver-1.png'
 const Works = () => (
   <Layout title="Technical Skills">
      <Container>
@@ -19,8 +25,8 @@ const Works = () => (
           <span>JavaScript, TypeScript, Python, C/C++, SQL</span>
         </ListItem>
         <ListItem>
-          <Meta>ChatBot Technologies</Meta>
-          <span>Langchain, OpenAI API, Pinecone</span>
+          <Meta>AI Technologies</Meta>
+          <span>Langchain, OpenAI API, Pinecone, AutoGPT</span>
         </ListItem>
         <ListItem>
           <Meta>Web Technologies</Meta>
@@ -28,7 +34,7 @@ const Works = () => (
         </ListItem>
         <ListItem>
           <Meta>Developer Tools</Meta>
-          <span>GitHub, GitLab, BitBucket VS Code, Pycharm</span>
+          <span>GitHub, GitLab, BitBucket, VS Code, Pycharm</span>
         </ListItem>
         <ListItem>
           <Meta>Coursework</Meta>
@@ -36,9 +42,49 @@ const Works = () => (
         </ListItem>
       </List>
     </Container>
+
     <Container>
       <Heading as="h3" variant="section-title" fontSize={20} mb={4}>
-        Works
+        LucidWave AI Portfolio
+      </Heading>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem id="pushngyun" title="PUSCH & NGUYEN" thumbnail={pushngyun}>
+          Pusch & Nguyen, leading experts in personal injury law, partnered with LucidWaveAI to seamlessly incorporate advanced AI Chatbot and robust AI automations across multiple facets of their legal practice.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="indiverse" title="In-Diverse Chatbot" thumbnail={indiverse}>
+          In-Diverse Company collaborated with LucidWaveAI to seamlessly integrate cutting-edge AI Chatbot and robust AI automations across diverse facets of their business operations.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="meta" title="Yifan Liu, SWE@Meta" thumbnail={meta}>
+          Yifan Liu, SWE @Meta collaborated with us at LucidWaveAI to build an POC AI business advisory chatbot. 
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="tcengine" title="Trade Collaboration Engine" thumbnail={tcengine}>
+          TC Engine collaborated with us at LucidWaveAI to build an advance AI SAAS chatbot platform, trained on data. 
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="metabolic" title="Metabolic-Shop Chatbot" thumbnail={metabolic}>
+            Metabolic Shop's Dr Donald Layman collaborated with us at LucidWaveAI to integrate AI Chatbot.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="fiverr" title="Fiverr (Freelancer)" thumbnail={fiverr}>
+          I've and continue to work with some amazing businesses on fiverr as a freelancer particularly in the field of AI.
+          </WorkGridItem>
+        </Section>
+
+      </SimpleGrid>
+
+    </Container>
+    <Container>
+      <Heading as="h3" variant="section-title" fontSize={20} mb={4}>
+        Personal/College Projects
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>

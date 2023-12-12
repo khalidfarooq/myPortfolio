@@ -23,15 +23,15 @@ During the time of the event, traffic stats were <span style={{fontWeight: "bold
       To prevent data loss, participant’s information was stored in an SQL database as well as in a private Google Drive
       </P>
       <List ml={4} my={4}>
-        <ListItem>
+        {/* <ListItem>
           <Meta>Live Demo</Meta>
-          <Link href="http://www.dynamicspoc.in/">
+          <Link _target="_blank" isExternal href="http://www.dynamicspoc.in/">
           http://www.dynamicspoc.in/ <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem>
+        </ListItem> */}
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/Dynamics-POC/Dynamics-Official-Website">
+          <Link _target="_blank" isExternal href="https://github.com/Dynamics-POC/Dynamics-Official-Website">
           https://github.com/Dynamics-POC<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
