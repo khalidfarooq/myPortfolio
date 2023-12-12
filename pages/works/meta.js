@@ -25,8 +25,8 @@ const Work = () => (
       </List>
 
       <Meta>Snippets</Meta><br></br><br></br>
-      <WorkImage src="/images/works/yifan-1.jpg" alt="yifan" />
-      <WorkImage src="/images/works/yifan-2.jpg" alt="yifan" />
+      <WorkImage src="/images/works/yifan-1.jpg" alt="yifan-1" />
+      <WorkImage src="/images/works/yifan-2.jpg" alt="yifan-2" />
     </Container>
   </Layout>
 )
