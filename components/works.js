@@ -1,8 +1,8 @@
 import { Container, Heading, SimpleGrid, List, ListItem } from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
-import { Meta } from '../components/work'
+import Layout from './layouts/article'
+import Section from './section'
+import { WorkGridItem } from './grid-item'
+import { Meta } from './work'
 import thunmbNcov19india from '../public/images/works/ncov19india.png'
 import thunmbShalimar from '../public/images/works/shalimar1.png'
 import thunmbDynamics from '../public/images/works/dynamics1.png'
@@ -43,8 +43,8 @@ const Works = () => (
       </List>
     </Container>
 
-    <Container>
-      <Heading as="h3" variant="section-title" fontSize={20} mb={4}>
+    <Container style={{marginTop:'30px'}}>
+      <Heading as="h3" variant="section-title" fontSize={20} mb={4} >
         LucidWave AI Portfolio
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -116,4 +116,4 @@ their documents in one place.
 )
 
 export default Works
-export { getServerSideProps } from '../components/chakra'
+export { getServerSideProps } from './chakra'

@@ -17,6 +17,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import {IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import {useColorModeValue } from '@chakra-ui/react'
+import { IconBrandLinktree, IconCalendarTime, IconFileTypePdf, IconBrandGithub } from '@tabler/icons-react'
+import Works from '../components/works'
 const Home = () => (
   <Layout>
     <Container>
@@ -43,7 +45,9 @@ const Home = () => (
             Khalid Farooq
           </Heading>
           <p>SDE <Link isExternal href='https://www.nasdaq.com/' style={{fontWeight:'800'}}>@Nasdaq</Link></p>
-          <p>Founder <Link isExternal href='https://www.lucidwaveai.com/' style={{fontWeight:'800'}}>@LucidWaveAI</Link></p>
+          <p>Founder <Link isExternal href='https://www.mediscribe.pro/' style={{fontWeight:'800'}}>@MediScribePro</Link>
+          , <Link isExternal href='https://www.lucidwaveai.com/' style={{fontWeight:'800'}}>@LucidWaveAI</Link>
+          </p>
         </Box>
 
       </Box>
@@ -62,7 +66,7 @@ const Home = () => (
             href="https://linktr.ee/khalidfarooq"
             target="_blank"
             rel="noopener noreferrer"
-            rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('yellow', 'orange')}>
+            leftIcon={<IconBrandLinktree size={15}/>} colorScheme={useColorModeValue('yellow', 'orange')}>
               Link Tree
             </Button>
           </NextLink>
@@ -76,46 +80,68 @@ const Home = () => (
             href="https://calendly.com/lucidwaveai/consulation-call"
             target="_blank"
             rel="noopener noreferrer"
-            rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('green', 'green')}>
+            leftIcon={<IconCalendarTime size={15} />} colorScheme={useColorModeValue('green', 'green')}>
               Book a call
             </Button>
           </NextLink>
-        </Flex>
+
+      </Flex>
+      <Flex
+          my={4}
+          direction={["row", "row"]}
+          justifyContent="center"
+          gap={4}
+        >
+
+          <NextLink 
+            href="https://calendly.com/lucidwaveai/consulation-call"
+            isExternal
+          >
+            <Button 
+            as="a"
+            style={{marginRight:"10px"}}
+            href="https://github.com/khalidfarooq"
+            target="_blank"
+            rel="noopener noreferrer"
+            leftIcon={<IconBrandGithub size={20} />} colorScheme={useColorModeValue('green', 'green')}>
+              Github
+            </Button>
+          </NextLink>
+          <NextLink 
+            href="https://linktr.ee/khalidfarooq"
+            isExternal
+          >
+            <Button 
+            as="a"
+            href="https://drive.google.com/file/d/1vntCv3kYo_Xe96YdALTb26ITJZ-LRRJj/view"
+            target="_blank"
+            rel="noopener noreferrer"
+            leftIcon={<IconFileTypePdf size={20}/>} colorScheme={useColorModeValue('yellow', 'orange')}>
+              Resume
+            </Button>
+          </NextLink>
+
+      </Flex>
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
         <Paragraph>
           <List>
-            <ListItem>I am a proficient full-time Senior Software Developer at Nasdaq.</ListItem>
+            <ListItem>I am currenly working as a full-time Senior Software Developer at Nasdaq.</ListItem>
             <ListItem> 
-              In addition to my role at Nasdaq, I am the founder and driving force behind&nbsp;
-              <Link _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link>
-              , an innovative AI Automation Agency.<br></br> <Link _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link> is dedicated to transforming 
-              businesses by leveraging cutting-edge technologies, crafting bespoke Chatbot solutions, and developing advanced AI SaaS and CRM applications.
+              In addition to that , I am the founder and driving force behind&nbsp;
+              <Link style={{fontWeight:'800'}} _target="_blank" isExternal href="https://www.mediscribe.pro/">Mediscribe Pro</Link>
+              , <Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link>.
               </ListItem>
-            <ListItem>My mission is to elevate your business's online presence and efficiency through the power of AI.&nbsp; 
-            Join me on this journey as we navigate the intersection of technology and imagination, pushing the boundaries of what's possible in the digital realm.
-            </ListItem>
+            <ListItem><Link style={{fontWeight:'800'}} _target="_blank" isExternal href="https://www.mediscribe.pro/">Mediscribe Pro</Link> is an AI SaaS medical scribing, charting and documentation tool for all health care professionals.</ListItem>
+            <ListItem><Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link> is an AI Automation Agenecy that helps business utilise AI in their existing flow and build AI SaaS for businesses.</ListItem>
           </List> 
         </Paragraph>
-        <Flex
-          align="center"
-          my={4}
-          direction={["column", "column"]}
-          justifyContent="center"
-          gap={4}
-        >
-          <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
-        </Flex>
       </Section>
-
-
-      <Section delay={0.3}>
+    </Container>
+    <Works/>
+    <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
@@ -152,9 +178,7 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
-
       </Section>
-    </Container>
   </Layout>
 )
 

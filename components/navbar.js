@@ -71,14 +71,14 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem 
+          {/* <LinkItem 
             href="/works" path={path} 
             _hover={{ bg: "teal.600", color:"white" }}
             _focus={{ boxShadow: "outline" }}
           >
             Works
-          </LinkItem>
-          <LinkItem
+          </LinkItem> */}
+          {/* <LinkItem
             _target="_blank"
             href="https://linktr.ee/khalidfarooq"
             path={path}
@@ -92,7 +92,7 @@ const Navbar = props => {
           >
             <IoUnlink />
             LinkTree
-          </LinkItem>
+          </LinkItem> */}
           <LinkItem
             _target="_blank"
             href="https://drive.google.com/file/d/1vntCv3kYo_Xe96YdALTb26ITJZ-LRRJj/view?usp=sharing"
@@ -136,12 +136,12 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
+                {/* <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
-                </NextLink>
-                <NextLink href="/works" passHref>
+                </NextLink> */}
+                {/* <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
-                </NextLink>
+                </NextLink> */}
                 <MenuItem
                   as={Link}
                   href="https://drive.google.com/file/d/1vntCv3kYo_Xe96YdALTb26ITJZ-LRRJj/view?usp=sharing"
