@@ -36,7 +36,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/khalidfarooq.jpg"
+            src="/images/khalidfarooq.png"
             alt="Profile image"
           />
         </Box>
@@ -48,6 +48,7 @@ const Home = () => (
           <p>Founder <Link isExternal href='https://www.mediscribe.pro/' style={{fontWeight:'800'}}>@MediScribePro</Link>
           , <Link isExternal href='https://www.lucidwaveai.com/' style={{fontWeight:'800'}}>@LucidWaveAI</Link>
           </p>
+          <p>Co-Founder <Link isExternal href='https://topemr.com/' style={{fontWeight:'800'}}>@TopEMR</Link></p>
         </Box>
 
       </Box>
@@ -124,18 +125,23 @@ const Home = () => (
       </Flex>
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+        About My Startups
         </Heading>
         <Paragraph>
           <List>
-            <ListItem>I am currently working as a full-time Senior Software Developer at Nasdaq.</ListItem>
+            {/* <ListItem>I am currently working as a full-time Senior Software Developer at Nasdaq.</ListItem>
             <ListItem> 
               In addition to that , I am the founder and driving force behind&nbsp;
               <Link style={{fontWeight:'800'}} _target="_blank" isExternal href="https://www.mediscribe.pro/">MediScribe Pro</Link>
               , <Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link>.
-              </ListItem>
-            <ListItem><Link style={{fontWeight:'800'}} _target="_blank" isExternal href="https://www.mediscribe.pro/">MediScribe Pro</Link> is an AI SaaS medical scribing, charting and documentation tool for all health care professionals.</ListItem>
+              Co-Founder <Link isExternal href='https://topemr.com/' style={{fontWeight:'800'}}>@TopEMR</Link>
+              </ListItem> */}
+            <ListItem><Link style={{fontWeight:'800'}} _target="_blank" isExternal href="https://www.mediscribe.pro/">MediScribe Pro</Link> is an AI SaaS medical scribing, charting and documentation tool for all health care professionals. Reducing clinical note taking time by upto 90%.</ListItem>
             <ListItem><Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link> is an AI Automation Agency that helps business utilise AI in their existing flow and build AI SaaS for businesses.</ListItem>
+            <ListItem>
+              <Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://topemr.com/">Top EMR</Link> is a full scale EMR for healthcare providers. Unlike conventional EMRs, which demand approximately 30 minutes for clinical notes and billing per patient, topEMR's integrated AI technology slashes this time to just 5 minutes.
+            </ListItem>
+          
           </List> 
         </Paragraph>
       </Section>
