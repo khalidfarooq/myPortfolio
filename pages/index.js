@@ -128,14 +128,14 @@ const Home = () => (
         </Heading>
         <Paragraph>
           <List>
-            <ListItem>I am currenly working as a full-time Senior Software Developer at Nasdaq.</ListItem>
+            <ListItem>I am currently working as a full-time Senior Software Developer at Nasdaq.</ListItem>
             <ListItem> 
               In addition to that , I am the founder and driving force behind&nbsp;
-              <Link style={{fontWeight:'800'}} _target="_blank" isExternal href="https://www.mediscribe.pro/">Mediscribe Pro</Link>
+              <Link style={{fontWeight:'800'}} _target="_blank" isExternal href="https://www.mediscribe.pro/">MediScribe Pro</Link>
               , <Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link>.
               </ListItem>
-            <ListItem><Link style={{fontWeight:'800'}} _target="_blank" isExternal href="https://www.mediscribe.pro/">Mediscribe Pro</Link> is an AI SaaS medical scribing, charting and documentation tool for all health care professionals.</ListItem>
-            <ListItem><Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link> is an AI Automation Agenecy that helps business utilise AI in their existing flow and build AI SaaS for businesses.</ListItem>
+            <ListItem><Link style={{fontWeight:'800'}} _target="_blank" isExternal href="https://www.mediscribe.pro/">MediScribe Pro</Link> is an AI SaaS medical scribing, charting and documentation tool for all health care professionals.</ListItem>
+            <ListItem><Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link> is an AI Automation Agency that helps business utilise AI in their existing flow and build AI SaaS for businesses.</ListItem>
           </List> 
         </Paragraph>
       </Section>

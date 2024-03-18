@@ -12,9 +12,9 @@ const Work = () => (
       Yifan Liu, SWE @Meta
       </Title>
       <P>
-      I worked with Yifan Liu, SWE @Meta to build an POC AI business advisory chatbot. 
+      I worked with Yifan Liu, SWE @Meta to build an Proof of Concept AI business advisory chatbot. 
       </P>
-      <P>It was a big milestone for me personally as i got to work with one of the best programming mind that i've known.</P>
+      <P>It was a big milestone for me personally as i got to work with one of the best programming mind that I've known.</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Client's Profile</Meta>

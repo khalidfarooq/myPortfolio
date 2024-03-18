@@ -60,7 +60,7 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="meta" title="Yifan Liu, SWE@Meta" thumbnail={meta}>
-          Yifan Liu, SWE @Meta collaborated with us at LucidWaveAI to build an POC AI business advisory chatbot. 
+          Yifan Liu, SWE @Meta collaborated with us at LucidWaveAI to build an Proof of Concept AI business advisory chatbot. 
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
@@ -90,7 +90,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.1}>
           <WorkGridItem id="healthchain" title="Health Chain" thumbnail={heathchain}>
-            An blockchain based application that enables coherent accessibility of health data amongst caregivers, health practitioners and patients.
+            A blockchain based application that enables coherent accessibility of health data amongst caregivers, health practitioners and patients.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
