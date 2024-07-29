@@ -45,10 +45,9 @@ const Home = () => (
             Khalid Farooq
           </Heading>
           <p>SDE <Link isExternal href='https://www.nasdaq.com/' style={{fontWeight:'800'}}>@Nasdaq</Link></p>
-          <p>Founder <Link isExternal href='https://www.mediscribe.pro/' style={{fontWeight:'800'}}>@MediScribePro</Link>
-          , <Link isExternal href='https://www.lucidwaveai.com/' style={{fontWeight:'800'}}>@LucidWaveAI</Link>
-          </p>
-          <p>Co-Founder <Link isExternal href='https://topemr.com/' style={{fontWeight:'800'}}>@TopEMR</Link></p>
+          <p>Creator behind <Link isExternal href='https://www.mediscribe.pro/' style={{fontWeight:'800'}}>MediScribePro</Link>
+          , <Link isExternal href='https://www.lucidwaveai.com/' style={{fontWeight:'800'}}>LucidWaveAI</Link>
+          , <Link isExternal href='https://topemr.com/' style={{fontWeight:'800'}}>@TopEMR</Link></p>
         </Box>
 
       </Box>
@@ -125,7 +124,7 @@ const Home = () => (
       </Flex>
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-        About My Startups
+        About My Side-Hustles
         </Heading>
         <Paragraph>
           <List>
