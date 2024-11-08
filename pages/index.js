@@ -20,8 +20,8 @@ import {useColorModeValue } from '@chakra-ui/react'
 import { IconBrandLinktree, IconCalendarTime, IconFileTypePdf, IconBrandGithub } from '@tabler/icons-react'
 import Works from '../components/works'
 const Home = () => (
-  <Layout>
-    <Container>
+  <Layout >
+    <Container marginTop="20px">
       <Box display='flex' flexDirection="row-reverse">
         <Box
           flexShrink={0}
@@ -45,9 +45,9 @@ const Home = () => (
             Khalid Farooq
           </Heading>
           <p>SDE <Link isExternal href='https://www.nasdaq.com/' style={{fontWeight:'800'}}>@Nasdaq</Link></p>
-          <p>Creator behind <Link isExternal href='https://www.mediscribe.pro/' style={{fontWeight:'800'}}>MediScribePro</Link>
-          , <Link isExternal href='https://www.lucidwaveai.com/' style={{fontWeight:'800'}}>LucidWaveAI</Link>
-          , <Link isExternal href='https://topemr.com/' style={{fontWeight:'800'}}>@TopEMR</Link></p>
+          <p>Creator of <Link isExternal href='https://www.mediscribe.pro/' style={{fontWeight:'800'}}>MediScribe Pro</Link>
+          , <Link isExternal href='https://www.blazelabs.pro/' style={{fontWeight:'800'}}>Blaze Labs</Link>
+          , <Link isExternal href='https://topemr.com/' style={{fontWeight:'800'}}>Top EMR</Link></p>
         </Box>
 
       </Box>
@@ -71,13 +71,13 @@ const Home = () => (
             </Button>
           </NextLink>
           <NextLink 
-            href="https://calendly.com/lucidwaveai/consulation-call"
+            href="https://cal.com/khalidfarooq/30min"
             isExternal
           >
             <Button 
             as="a"
             style={{marginLeft:"10px"}}
-            href="https://calendly.com/lucidwaveai/consulation-call"
+            href="https://cal.com/khalidfarooq/30min"
             target="_blank"
             rel="noopener noreferrer"
             leftIcon={<IconCalendarTime size={15} />} colorScheme={useColorModeValue('green', 'green')}>
@@ -94,7 +94,7 @@ const Home = () => (
         >
 
           <NextLink 
-            href="https://calendly.com/lucidwaveai/consulation-call"
+            href="https://cal.com/khalidfarooq/30min"
             isExternal
           >
             <Button 
@@ -136,7 +136,7 @@ const Home = () => (
               Co-Founder <Link isExternal href='https://topemr.com/' style={{fontWeight:'800'}}>@TopEMR</Link>
               </ListItem> */}
             <ListItem><Link style={{fontWeight:'800'}} _target="_blank" isExternal href="https://www.mediscribe.pro/">MediScribe Pro</Link> is an AI SaaS medical scribing, charting and documentation tool for all health care professionals. Reducing clinical note taking time by upto 90%.</ListItem>
-            <ListItem><Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://www.lucidwaveai.com/">LucidWave AI</Link> is an AI Automation Agency that helps business utilise AI in their existing flow and build AI SaaS for businesses.</ListItem>
+            <ListItem><Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://www.blazelabs.pro/">Blaze Labs</Link> is a development and AI automation agency that helps businesses rapidly launch MVPs and supercharge their workflows with tailored AI solutions.</ListItem>
             <ListItem>
               <Link style={{fontWeight:'800'}}  _target="_blank" isExternal href="https://topemr.com/">Top EMR</Link> is a full scale EMR for healthcare providers. Unlike conventional EMRs, which demand approximately 30 minutes for clinical notes and billing per patient, topEMR's integrated AI technology slashes this time to just 5 minutes.
             </ListItem>

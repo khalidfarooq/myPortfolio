@@ -30,7 +30,7 @@ const Works = () => (
         </ListItem>
         <ListItem>
           <Meta>Web Technologies</Meta>
-          <span>NextJs, ReactJs, OfficeJs, Django, jQuery, HTML5, CSS3</span>
+          <span>NextJs, ReactJs, OfficeJs, Django, jQuery, TailwindCSS</span>
         </ListItem>
         <ListItem>
           <Meta>Developer Tools</Meta>
@@ -45,32 +45,32 @@ const Works = () => (
 
     <Container style={{marginTop:'30px'}}>
       <Heading as="h3" variant="section-title" fontSize={20} mb={4} >
-        LucidWave AI Portfolio
+        Blaze Labs Portfolio
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.1}>
           <WorkGridItem id="pushngyun" title="PUSCH & NGUYEN" thumbnail={pushngyun}>
-          Pusch & Nguyen, leading experts in personal injury law, partnered with LucidWaveAI to seamlessly incorporate advanced AI Chatbot and robust AI automations across multiple facets of their legal practice.
+          Pusch & Nguyen, leading experts in personal injury law, partnered with Blaze Labs to seamlessly incorporate advanced AI Chatbot and robust AI automations across multiple facets of their legal practice.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="indiverse" title="In-Diverse Chatbot" thumbnail={indiverse}>
-          In-Diverse Company collaborated with LucidWaveAI to seamlessly integrate cutting-edge AI Chatbot and robust AI automations across diverse facets of their business operations.
+          In-Diverse Company collaborated with BlazeLabs to seamlessly integrate cutting-edge AI Chatbot and robust AI automations across diverse facets of their business operations.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="meta" title="Yifan Liu, SWE@Meta" thumbnail={meta}>
-          Yifan Liu, SWE @Meta collaborated with us at LucidWaveAI to build an Proof of Concept AI business advisory chatbot. 
+          Yifan Liu, SWE @Meta collaborated with us at BlazeLabs to build an Proof of Concept AI business advisory chatbot. 
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="tcengine" title="Trade Collaboration Engine" thumbnail={tcengine}>
-          TC Engine collaborated with us at LucidWaveAI to build an advance AI SAAS chatbot platform, trained on data. 
+          TC Engine collaborated with us at BlazeLabs to build an advance AI SAAS chatbot platform, trained on data. 
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="metabolic" title="Metabolic-Shop Chatbot" thumbnail={metabolic}>
-            Metabolic Shop's Dr Donald Layman collaborated with us at LucidWaveAI to integrate AI Chatbot.
+            Metabolic Shop's Dr Donald Layman collaborated with us at BlazeLabs to integrate AI Chatbot.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
